@@ -1,0 +1,24 @@
+{
+  "name": "fictional-university-theme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "wp-scripts build && sass src/index.scss build/index.css --no-source-map",
+    "start": "wp-scripts start && sass src/index.scss build/index.css --watch ",
+    "dev": "wp-scripts start",
+    "devFast": "wp-scripts start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@wordpress/scripts": "*",
+    "axios": "^0.21.1",
+    "sass": "^1.79.4"
+  },
+  "devDependencies": {
+    "laravel-mix": "^6.0.49"
+  }
+}
